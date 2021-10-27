@@ -32,5 +32,8 @@ Jetzt habe ich's endlich geschafft. Im Folgenden beschreibe ich den Workflow, um
  - Ab jetzt muss ich beide Repos bei jeder Änderung mit git 'bearbeiten'. 
  - Voilà!
  
+Zum Schluss noch ein Bild von einem Löwen:
+
+![Löwe](/static/lion.png)
  
 Thank you for choosing After Dark.

@@ -14,7 +14,7 @@ images = [
   license = "cc-by-nc-sa-4.0"
 +++
 
-Seit gestern (24.10.2021) lebt eine neue Mitbrwohnerin bei uns:
+Seit gestern (24.10.2021) lebt eine neue Mitbewohnerin bei uns:
 Nina, eine kleine schwarze Katze. Beli hat sie uns geschenkt.
 
 Die Katze hat durch ihre Gegenwart bereits unsere Familie verändert - wir sind ruhiger geworden.
