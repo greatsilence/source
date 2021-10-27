@@ -28,6 +28,6 @@ Wie fügt man ein Bild ein?
 
 ![image example](https://www.groedig.net/Upload/Galerie/42.jpg)
 
-Das ist ein schönes Foto von Grödig. Jetzt habe ich zwei Repos auf Github - so ganz durchschaue ich das nicht. Dieser Text ist ein Test, ob der Workflow überhaupt klappt. Ich schreibe an diesem Text weiter - warum wird der Text nicht veröffentlicht?
+Das ist ein schönes Foto von Grödig. Jetzt habe ich zwei Repos auf Github - so ganz durchschaue ich das nicht. Dieser Text ist ein Test, ob der Workflow überhaupt klappt. Ich schreibe an diesem Text weiter - warum wird der Text nicht veröffentlicht? Wow - es hat doch geklappt. Jetzt ergänze ich den Text und schaue mal was passiert.
 
 Thank you for choosing After Dark.
