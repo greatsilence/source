@@ -34,6 +34,6 @@ Jetzt habe ich's endlich geschafft. Im Folgenden beschreibe ich den Workflow, um
  
 Zum Schluss noch ein Bild von einem Löwen:
 
-![Löwe](/static/lion.png)
+![Löwe](/lion.png)
  
 Thank you for choosing After Dark.
