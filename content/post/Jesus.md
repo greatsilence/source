@@ -40,11 +40,11 @@ Die Hl. Schrift nicht zu kennen heißt, Christus nicht zu kennen. (Hl. Hieronymu
 ### Leiden und Auferstehung
 
 ## Bücher über Jesus
- - Klaus Berger - Jesus
- - Peter  Seewald - Jesus Christus (?)
- - Alexander Men - Der Menschensohn
- - Romano Guardini - Der Herr
- - Joseph Ratzinger - Jesus von Nazareth (3 Bände)
+ - Klaus Berger (2004): *Jesus*
+ - Peter  Seewald (2009): *Jesus Christus*
+ - Alexander Men (2006): *Der Menschensohn*
+ - Romano Guardini (2007): *Der Herr*
+ - Joseph Ratzinger (2007): *Jesus von Nazareth*
 
 
 Thank you for choosing After Dark.
