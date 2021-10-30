@@ -29,6 +29,8 @@ Hier möchte ich meine Gedanken zu Jesus notieren. Über Jesus gibt es unzählig
 Die Hl. Schrift nicht zu kennen heißt, Christus nicht zu kennen. (Hl. Hieronymus)
 {{< /hackcss-alert >}}
 
+{{< ref "mein-zweiter-eintrag.md" >}}
+
 ### Vorgeschichte
 
 ### Geburt
