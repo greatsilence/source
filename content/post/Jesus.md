@@ -3,8 +3,8 @@ title = "Jesus"
 date = 2021-10-28T14:49:05+02:00
 description = "This text was generated using the After Dark post archetype."
 toc = false
-categories = ["hacking"]
-tags = ["after", "dark"]
+categories = ["Theology"]
+tags = ["Jesus", "Faith"]
 images = [
   "https://source.unsplash.com/collection/983219/1600x900"
 ] # overrides site-wide open graph image
@@ -22,7 +22,7 @@ In dem Film `Augustinus` sagt Ambrosius diesen entscheidenden Satz: "Es ist nich
 
 Auf YouTube bietet der Kanal von {{< external href="https://www.youtube.com/channel/UC_BvLbzBJEhRs5CdqMNxZQw" text="kathmedia" />}} hochwertige, inhaltlich anspruchsvolle Beiträge zu ziemlich allen Themen des katholischen Glaubens. Eine Serie beschäftigt sich mit dem Dialog zwischen Christentum und Islam. 
 
-## Was sagt die Heilige Scrhift über Jesus?
+## Was sagt die Heilige Schrift über Jesus?
 Hier möchte ich meine Gedanken zu Jesus notieren. Über Jesus gibt es unzählige Bücher, Filme, etc. Die `Primärquelle` über Jesus ist die Heilige Schrift. 
 
 {{< hackcss-alert type="info" >}}
@@ -40,11 +40,11 @@ Die Hl. Schrift nicht zu kennen heißt, Christus nicht zu kennen. (Hl. Hieronymu
 ### Leiden und Auferstehung
 
 ## Bücher über Jesus
- - Klaus Berger (2004): *Jesus*
- - Peter  Seewald (2009): *Jesus Christus*
- - Alexander Men (2006): *Der Menschensohn*
- - Romano Guardini (2007): *Der Herr*
- - Joseph Ratzinger (2007): *Jesus von Nazareth*
+ - Klaus Berger (2004): **Jesus**
+ - Peter  Seewald (2009): **Jesus Christus**
+ - Alexander Men (2006): **Der Menschensohn**
+ - Romano Guardini (2007): **Der Herr**
+ - Joseph Ratzinger (2007): `Jesus von Nazareth`
 
 
 Thank you for choosing After Dark.
