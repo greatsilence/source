@@ -21,14 +21,14 @@ Jetzt habe ich's endlich geschafft. Im Folgenden beschreibe ich den Workflow, um
 ## Workflow
  - Zuerst After-Dark und Hugo installieren.
  - Dann auf Github zwei Repositories erstellen: eines für den Blog-Inhalt (posts), das andere für den Blog selber (Module, theme, search, ...).
- - Das Repo für den Blog-Inhalt muss den Namen <Benutzername>.github.io besitzen. Hier lade ich per Git den Inhalt des public Verzeichnisses hoch.
- - Das andere Repo trägt einen anderen Namen. Dorthin kommt das Eltern-Verzeichnis von public.
+ - Das Repo für den Blog-Inhalt **muss** den Namen USER.github.io besitzen. Hier lade ich per Git den Inhalt des public Verzeichnisses hoch. Da auf meinem ersten Account bereits ein Repo mit diesem USER Namen besteht {{< external href="https://mfuchs1.github.io/" text="the lion blog" />}}, musste ich einen zweiten Account extra für diese Website anlegen (und dazu eine andere Email-Adresse verwenden).
+ - Das zweite Repo kann einen beliebigen Namen tragen. Besser wäre es allerdings, eine Bezeichnung mit `source` oder `Hugo` zu verwenden (damit man erkennt, wozu dieses Repo dient). Dorthin kommt das Eltern-Verzeichnis von public.
  - Jetzt kommt der 'tricky part': Das public-Verzeichnis wird per submodule mit dem Eltern-Verzeichnis verbunden.
  
  ```sh
- git submodule add -b main -f https://github.com/greatsilence/greatsilence.github.io.git public 
+ git submodule add -b main -f https://github.com/USER/USER.github.io.git public 
  ```
-
+ - Eine kleine, aber wichtige Info: ich habe bemerkt, dass man - nach dem Erstellen eines Repos - besser nicht im Webbrowser die `Back`-Buttons benutzen soll, um zurück zu gehen. Dies macht (fast) alle bisherigen Einstellungen rückgängig. Also: einfach den Tab schließen. 
  - Ab jetzt muss ich beide Repos bei jeder Änderung mit git 'bearbeiten'. 
  - Voilà!
  
