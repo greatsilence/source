@@ -30,6 +30,17 @@ Jetzt habe ich's endlich geschafft. Im Folgenden beschreibe ich den Workflow, um
  ```
  - Eine kleine, aber wichtige Info: ich habe bemerkt, dass man - nach dem Erstellen eines Repos - besser nicht im Webbrowser die `Back`-Buttons benutzen soll, um zurück zu gehen. Dies macht (fast) alle bisherigen Einstellungen rückgängig. Also: einfach den Tab schließen. 
  - Ab jetzt muss ich beide Repos bei jeder Änderung mit git 'bearbeiten'. 
+ 
+ ```sh
+hugo new post/<Name_des_posts>.md
+hugo server -D
+Crtl-C 
+hugo 
+git add .
+git commit -m "einen commit schreiben"
+git push -u origin main
+ ```
+ 
  - Voilà!
  
 Zum Schluss noch ein Bild von einem Löwen:
