@@ -20,13 +20,18 @@ Hier beginnt nach einer längeren Pause ein neuer Eintrag. Auf grund einiger Erf
 ## Gebet
 Bei jeder Fahrt in die Schule bete ich den Rosenkranz.
 
+P. Johannes-Elias hat mir ein kleines Buch geschenkt: {{< external href="https://www.parvis.ch/de/buecher-kleinschriften/suche-den-frieden-und-jage-ihm-nach" text="Jacques Philippe "Suche Frieden und jage ihm nach"" />}}. Leider habe ich noch gar nicht angefangen, darin zu lesen. 
+
 ## Familie
+Meine Frau und ich müssen uns öfters austauschen. Andererseits lassen sich einige Aufgaben miteinander verbinden: Kochen **mit** den Kindern. 
 
 ## Arbeit
+Bei mir liegt es vor allem an einem mangelhaften Arbeitszeit-Management. Ich muss daher in einem ersten Schritt meine Prioritäten festlegen und mir dann überlegen, wieviel Zeit ich wofür aufwenden will.
 
-## Natur
+## Natur / Sport
+Bei Sport habe ich in letzter Zeit sehr nachgelassen. Auch als Familie müssen wir regelmäßiger in die Natur.
 
 ## Digitale Auszeit
-
+Eine digitale Auszeit ist besonders wichtig.
 
 Thank you for choosing After Dark.
