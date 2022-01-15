@@ -17,6 +17,24 @@ images = [
 
 Hier beginnt nach einer längeren Pause ein neuer Eintrag. Auf grund einiger Erfahrungen und Gespräche der letzten Zeit habe ich mir vermehrt die Frage gestellt: "Wie kann ich sowohl innerlich wie äußerlich im Frieden sein?" Die aktuelle Situation ist für viele von uns sehr anstrengend, sie zehrt an den Nerven. 
 
+## 5 Wege, um dem Wahn zu entkommen
+Ich habe seit Mittwoch, 13.1.2022 einen neuen Laptop: ein ThinkPad T15 Gen 2.
+
+### Anpassen
+Wieviel kann ich mir leisten?
+
+### Widerstand
+Wieviel kann ich mir leisten?
+
+### Rückzug
+Natur, Gebet, ...
+
+### Subversivität
+Heimlich etwas tun, was nicht gestattet ist.
+
+### In kleinen Gemeinschaften
+Das wichtigste! Menschen, mit denen ich wirklich offen reden kann (ohne Kritk, ohne Belehrung). 
+
 ## Gebet
 Bei jeder Fahrt in die Schule bete ich den Rosenkranz.
 
