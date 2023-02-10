@@ -32,7 +32,7 @@ Jetzt habe ich's endlich geschafft. Im Folgenden beschreibe ich den Workflow, um
  - Ab jetzt muss ich beide Repos bei jeder Änderung mit git 'bearbeiten'. 
  
  ```console
-$ hugo new post/<Name_des_posts>.md   	## mit Editor bearbeiten (draft auf 'false' setzen
+$ hugo new post/<Name_des_posts>.md   	## mit Editor bearbeiten (draft auf 'false' setzen)
 $ hugo server -D			## Kontrolle; startet lokalen Server
 $ Crtl-C 				## lokalen Server beenden
 $ hugo 					## Website in /public erstellen
