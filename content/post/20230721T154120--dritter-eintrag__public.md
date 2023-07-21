@@ -9,7 +9,7 @@ categories = ["Theology"]
 draft = false
 [[copyright]]
   owner = "Matthias Fuchs"
-  date = "2021"
+  date = "2023"
   license = "cc-by-nc-sa-4.0"
 +++
 
