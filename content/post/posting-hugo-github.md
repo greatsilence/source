@@ -36,7 +36,7 @@ $ hugo new post/<Name_des_posts>.md   	## mit Editor bearbeiten (draft auf 'fals
 $ hugo server -D			## Kontrolle; startet lokalen Server
 $ Crtl-C 				## lokalen Server beenden
 $ hugo 					## Website in /public erstellen
-$ git add .				## git-Befehle 
+$ git add .				## git-Befehle, auch im /public directory eingeben
 $ git commit -m "einen commit schreiben"
 $ git push -u origin main
  ```
