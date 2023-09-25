@@ -7,6 +7,9 @@ lastmod = 2023-09-25T20:50:58+02:00
 tags = ["emacs", "jesus"]
 categories = ["Emacs"]
 draft = false
+[[copyright]]
+  owner = "Matthias Fuchs"
+  date = "2023"
 +++
 
 ## Schule {#schule}
