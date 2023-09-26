@@ -3,7 +3,7 @@ title = "Was gibt es Neues"
 author = ["Matthias Fuchs"]
 description = "This text was generated using the After Dark post archetype."
 date = 2023-09-25T20:41:00+02:00
-lastmod = 2023-09-26T17:00:25+02:00
+lastmod = 2023-09-26T22:07:18+02:00
 tags = ["emacs", "jesus"]
 categories = ["Emacs"]
 draft = false
@@ -36,6 +36,6 @@ Aber eigentlich hat dieses Schuljahr für Gabriel wesentlich positiver begonnen 
 
 ## Wie kann ich den Copyright-Eintrag in jedem Post ändern? {#wie-kann-ich-den-copyright-eintrag-in-jedem-post-ändern}
 
-Das muss ich noch nachforschen? Gibt es wo eine post-Template dafür? Habe es gefunden: ich habe die Datei 'config.toml' geändert und beim Copyright-Eintrag (template?) das Jahr hinzugefügt.
+Das muss ich noch nachforschen? Gibt es wo eine post-Template dafür? Habe es gefunden: ich habe die Datei `~/flying-toasters/config.toml` geändert und beim Copyright-Eintrag (template?) das Jahr hinzugefügt.
 
 So, jetzt wird dieser Eintrag gepostet.
