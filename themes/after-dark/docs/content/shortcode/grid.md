@@ -7,7 +7,7 @@ html_attributes = ["class"]
 custom_attributes = []
 snippets_used = ["cell", "card", "button"]
 [[copyright]]
-  owner = "Josh Habdas"
+  owner = "VHS"
   date = "2019"
   license = "agpl-3.0-or-later"
 +++

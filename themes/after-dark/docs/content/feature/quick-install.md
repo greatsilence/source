@@ -8,13 +8,13 @@ aliases = [
   "/feature/quick-installer/"
 ]
 [[copyright]]
-  owner = "Josh Habdas"
+  owner = "VHS"
   date = "2019"
   license = "agpl-3.0-or-later"
 +++
 
 {{< hackcss-alert type="success" >}}
-{{< highlight shell >}}wget -qO - https://go.habd.as/after-dark | sh{{< /highlight >}}
+{{< highlight shell >}}wget -qO - https://codeberg.org/vhs/after-dark/raw/branch/trunk/bin/install | sh{{< /highlight >}}
 {{< /hackcss-alert >}}
 
 Run the above command in a terminal emulator after {{< external href="https://gohugo.io/getting-started/installing" text="installing Hugo" />}} to start a new website in 5-10 seconds. Hugo version `0.51` or greater required.
@@ -29,11 +29,11 @@ After Dark includes a portable installation script for quick set-up. Please inst
 {{< highlight sh "linenos=inline" >}}
 {{< include "themes/after-dark/bin/install" >}}
 {{< /highlight >}}
-<link itemprop="codeRepository" href="https://git.habd.as/comfusion/after-dark">
+<link itemprop="codeRepository" href="https://codeberg.org/vhs/after-dark">
 <meta itemprop="codeSampleType" content="script">
 <meta itemprop="programmingLanguage" content="sh">
 <meta itemprop="runtimePlatform" content="busybox">
-<link itemprop="targetProduct" href="https://after-dark.habd.as">
+<link itemprop="targetProduct" href="https://vhs.codeberg.page/after-dark">
 <meta itemprop="accessMode" content="textual">
 </details>
 {{< /hackcss-alert >}}
@@ -49,7 +49,7 @@ Here are three methods for downloading and running:
 1. Download and pipe to `sh` directly:
 
     {{< hackcss-alert >}}
-    {{< highlight shell >}}wget -qO - https://go.habd.as/after-dark | sh{{< /highlight >}}
+    {{< highlight shell >}}wget -qO - https://codeberg.org/vhs/after-dark/raw/branch/trunk/bin/install | sh{{< /highlight >}}
     {{< /hackcss-alert >}}
 
 2. Download into new file, `chmod` and execute:
@@ -63,7 +63,7 @@ chmod +x install && ./install{{< /highlight >}}
 
     {{< hackcss-alert >}}
     {{< highlight shell >}}# clone source and change to source directory
-git clone https://git.habd.as/comfusion/after-dark.git && cd "$_"
+git clone https://codeberg.org/vhs/after-dark.git && cd "$_"
 
 # use npm cli to get the release hash
 echo "${$(npm run integrity)#*sha512-}"

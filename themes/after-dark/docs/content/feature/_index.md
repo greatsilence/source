@@ -2,7 +2,7 @@
 title = "Features"
 description = "Explore the many features available to you in After Dark."
 [[copyright]]
-  owner = "Josh Habdas"
+  owner = "VHS"
   date = "2019"
   license = "agpl-3.0-or-later"
 +++

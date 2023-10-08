@@ -7,7 +7,7 @@ html_attributes = ["id", "name", "class", "autocomplete", "autofocus", "cols", "
 custom_attributes = ["text"]
 snippets_used = []
 [[copyright]]
-  owner = "Josh Habdas"
+  owner = "VHS"
   date = "2019"
   license = "agpl-3.0-or-later"
 +++

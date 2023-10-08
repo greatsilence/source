@@ -5,7 +5,7 @@ categories = ["search"]
 tags = ["metadata", "semantics", "robots", "SEO"]
 feature = ["related content"]
 [[copyright]]
-  owner = "Josh Habdas"
+  owner = "VHS"
   date = "2019"
   license = "agpl-3.0-or-later"
 +++

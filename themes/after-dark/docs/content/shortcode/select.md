@@ -7,7 +7,7 @@ html_attributes = ["name", "class", "disabled", "form"]
 custom_attributes = ["body"]
 snippets_used = ["label", "form group"]
 [[copyright]]
-  owner = "Josh Habdas"
+  owner = "VHS"
   date = "2019"
   license = "agpl-3.0-or-later"
 +++

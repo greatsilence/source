@@ -5,7 +5,7 @@ categories = ["customizing"]
 tags = ["shortcodes", "templating", "layout"]
 features = ["related content", "code highlighter", "snippets"]
 [[copyright]]
-  owner = "Josh Habdas"
+  owner = "VHS"
   date = "2019"
   license = "agpl-3.0-or-later"
 +++

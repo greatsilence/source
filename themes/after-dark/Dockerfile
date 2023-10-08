@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019, 2020  Josh Habdas <jhabdas@protonmail.com>
+# Copyright (C) 2019, 2020  VHS <vhsdev@tutanota.com>
 #
 # This file is part of After Dark.
 #
@@ -45,7 +45,7 @@ RUN \
 FROM node:alpine as sitebuilder
 COPY --from=hugobuilder /go/bin/hugo /usr/local/bin/hugo
 WORKDIR /tmp
-RUN wget -qO - https://go.habd.as/after-dark | sh
+RUN wget -qO - https://codeberg.org/vhs/after-dark/raw/branch/trunk/bin/install | sh
 
 # Move compiled sources into micro container
 FROM busybox

@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019  Josh Habdas <jhabdas@protonmail.com>
+# Copyright (C) 2019  VHS <vhsdev@tutanota.com>
 #
 # This file is part of After Dark.
 #
@@ -18,12 +18,12 @@
 #
 
 description = "After Dark is free and open-source software you can use to create a website, blog or app." # Suggested, controls default description meta
-author = "Josh Habdas" # Optional, controls author name display on posts
+author = "VHS" # Optional, controls author name display on posts
 hide_author = true # Optional, set true to suppress author name on posts
 has_cookies = false # Optional, set true to disable cookie disclaimer
 disable_csp = true # Optional, set true to disable content security policy
 images = [
-  "https://after-dark.habd.as/images/screenshots/after-dark-v6.15.0-homepage-fs8.png"
+  "https://vhs.codeberg.page/after-dark/images/screenshots/after-dark-v6.15.0-homepage-fs8.png"
 ] # Suggested, controls default Open Graph images
 
 [layout.menu.main]
@@ -40,7 +40,7 @@ images = [
     "data:"
   ]
   mediaSrc = [
-    "https://*.habd.as"
+    "https://*.vhs.codeberg.page"
   ]
   imgSrc = [
     "'self'",

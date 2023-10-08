@@ -5,7 +5,7 @@ categories = ["core"]
 tags = ["scripts", "security", "networking"]
 feature = ["related content", "code highlighter", "snippets"]
 [[copyright]]
-  owner = "Josh Habdas"
+  owner = "VHS"
   date = "2019"
   license = "agpl-3.0-or-later"
 +++

@@ -5,7 +5,7 @@ categories = ["core"]
 tags = ["docker", "container", "sass", "cloud", "ci"]
 features = ["code highlighter", "related content"]
 [[copyright]]
-  owner = "Josh Habdas"
+  owner = "VHS"
   date = "2019, 2020"
   license = "agpl-3.0-or-later"
 +++

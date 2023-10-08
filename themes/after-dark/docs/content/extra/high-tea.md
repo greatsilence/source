@@ -6,7 +6,7 @@ slug = "high-tea"
 tags = ["privacy", "networking"]
 features = ["related content", "snippets"]
 [[copyright]]
-  owner = "Josh Habdas"
+  owner = "VHS"
   date = "2019"
   license = "agpl-3.0-or-later"
 +++
@@ -25,5 +25,5 @@ High Tea also provides a Traefik integration so you can manage web services, mon
 
 ---
 
-- {{< external "https://git.habd.as/comfusion/high-tea" />}} -- source
-- {{< external "https://after-dark.habd.as/extra/high-tea/" />}} -- website
+- {{< external "https://codeberg.org/vhs/high-tea" />}} -- source
+- {{< external "https://vhs.codeberg.page/after-dark/extra/high-tea/" />}} -- website

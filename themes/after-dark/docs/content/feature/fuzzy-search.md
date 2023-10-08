@@ -5,7 +5,7 @@ categories = ["navigation"]
 tags = ["links", "search", "controls"]
 features = ["code highlighter", "snippets", "related content"]
 [[copyright]]
-  owner = "Josh Habdas"
+  owner = "VHS"
   date = "2019"
   license = "agpl-3.0-or-later"
 +++

@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019  Josh Habdas <jhabdas@protonmail.com>
+# Copyright (C) 2019  VHS <vhsdev@tutanota.com>
 #
 # This file is part of After Dark.
 #
@@ -17,10 +17,10 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
 
-baseurl = "https://after-dark.habd.as/" # Controls base URL sitewide
+baseurl = "https://vhs.codeberg.page/after-dark/" # Controls base URL sitewide
 title = "After Dark" # Homepage title and page title suffix
 paginate = 40 # Number of items to show before paginating
-copyright = "Copyright &copy; Josh Habdas. Licensed under <a target=\"_blank\" rel=\"external noopener license\" href=\"https://www.gnu.org/licenses/agpl.html\">AGPL-3.0-or-later</a>."
+copyright = "Copyright &copy; VHS. Licensed under <a target=\"_blank\" rel=\"external noopener license\" href=\"https://www.gnu.org/licenses/agpl.html\">AGPL-3.0-or-later</a>."
 
 # Controls default theme and theme components
 theme = [
@@ -44,7 +44,7 @@ sectionPagesMenu = "main" # Enable menu system for lazy bloggers
 
 [[deployment.targets]]
   name = "s3-aws"
-  URL = "s3://after-dark.habd.as?region=us-east-1"
+  URL = "s3://vhs.codeberg.page/after-dark?region=us-east-1"
   cloudFrontDistributionID = "E15C0TR21AL7CY"
 
 [[deployment.matchers]]

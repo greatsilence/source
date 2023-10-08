@@ -7,7 +7,7 @@ html_attributes = ["id", "name", "accept-charset", "action", "enctype", "target"
 custom_attributes = []
 snippets_used = ["help block", "button", "alert", "throbber", "label", "form group", "form", "text input"]
 [[copyright]]
-  owner = "Josh Habdas"
+  owner = "VHS"
   date = "2019"
   license = "agpl-3.0-or-later"
 +++

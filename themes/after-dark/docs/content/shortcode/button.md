@@ -7,7 +7,7 @@ html_attributes = ["id", "value", "name", "class", "onclick", "tabindex", "targe
 custom_attributes = ["type", "text", "isghost", "isblock", "action", "method"]
 snippets_used = ["button", "button group", "throbber", "form", "external"]
 [[copyright]]
-  owner = "Josh Habdas"
+  owner = "VHS"
   date = "2019"
   license = "agpl-3.0-or-later"
 +++
@@ -117,12 +117,12 @@ Print preview:
 [External](../external) navigation:
 
 ```html
-{{</* external rel="shortlink" href="https://go.habd.as/mavic-air" >}}
+{{</* external rel="shortlink" href="https://vhs.codeberg.page/mavic-air" >}}
   {{< hackcss-button type="success" text="Open" />}}
 {{< /external */>}}
 ```
 
-{{< external rel="shortlink" href="https://go.habd.as/mavic-air" >}}
+{{< external rel="shortlink" href="https://vhs.codeberg.page/mavic-air" >}}
   {{< hackcss-button type="success" text="Open" />}}
 {{< /external >}}
 

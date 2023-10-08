@@ -8,7 +8,7 @@ notes = [
   "perbarui contoh postingan byline'taxonomy pages'jika dimodifikasi"
 ]
 [[copyright]]
-  owner = "Josh Habdas"
+  owner = "VHS"
   date = "2019"
   license = "agpl-3.0-or-later"
 +++

@@ -3,12 +3,12 @@ title = "Validate Release"
 description = "Complete the included form to validate the release."
 noindex = true
 [[copyright]]
-  owner = "Josh Habdas"
-  date = "2019"
+  owner = "VHS"
+  date = "2019, 2022"
   license = "agpl-3.0-or-later"
 +++
 
-{{< hackcss-form name="validate" action="/validate/" >}}
+{{< hackcss-form name="validate" action="validate/" >}}
   {{< hackcss-formgroup name="integrity" >}}
     {{< hackcss-label for="digest" >}}
       <abbr title="Secure Hash Algorithm">SHA-512</abbr> Digest:

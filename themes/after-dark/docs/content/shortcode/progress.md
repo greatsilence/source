@@ -7,7 +7,7 @@ html_attributes = []
 custom_attributes = ["showpercent", "value", "filltext"]
 snippets_used = ["progress", "card", "alert"]
 [[copyright]]
-  owner = "Josh Habdas"
+  owner = "VHS"
   date = "2019"
   license = "agpl-3.0-or-later"
 +++

@@ -9,7 +9,7 @@ notes = [
   "juga meninjau pilihan modul yang sudah dipasang sebelumnya (lihat masalah di depan)"
 ]
 [[copyright]]
-  owner = "Josh Habdas"
+  owner = "VHS"
   date = "2019"
   license = "agpl-3.0-or-later"
 +++
@@ -22,11 +22,11 @@ After Dark termasuk skrip instalasi portabel untuk pengaturan cepat. Silahkan in
 {{< highlight shell "linenos=inline" >}}
 {{< include "themes/after-dark/bin/install" >}}
 {{< /highlight >}}
-<link itemprop="codeRepository" href="https://git.habd.as/comfusion/after-dark">
+<link itemprop="codeRepository" href="https://codeberg.org/vhs/after-dark">
 <meta itemprop="codeSampleType" content="script">
 <meta itemprop="programmingLanguage" content="sh">
 <meta itemprop="runtimePlatform" content="busybox">
-<link itemprop="targetProduct" href="https://after-dark.habd.as">
+<link itemprop="targetProduct" href="https://vhs.codeberg.page/after-dark">
 <meta itemprop="accessMode" content="textual">
 </details>
 {{< /hackcss-alert >}}
@@ -42,7 +42,7 @@ Berikut adalah tiga metode untuk men-download dan menjalankan:
 1. Unduh dan kirim ke `sh` secara langsung:
 
     {{< hackcss-alert >}}
-    {{< highlight shell >}}wget -qO - https://go.habd.as/after-dark | sh{{< /highlight >}}
+    {{< highlight shell >}}wget -qO - https://codeberg.org/vhs/after-dark/raw/branch/trunk/bin/install | sh{{< /highlight >}}
     {{< /hackcss-alert >}}
 
 2. Unduh di file baru, `chmod` dan jalankan:
@@ -55,7 +55,7 @@ chmod +x install && ./install{{< /highlight >}}
 3. Dari kanonik `git` klon:
 
     {{< hackcss-alert >}}
-    {{< highlight shell >}}# sumber klon dan ubah ke direktori sumber git klon https://git.habd.as/comfusion/after-dark.git && cd "$_"
+    {{< highlight shell >}}# sumber klon dan ubah ke direktori sumber git klon https://codeberg.org/vhs/after-dark.git && cd "$_"
 
 # gunakan npm cli untuk mendapatkan hash rilis
 echo "${$(npm run integrity)#*sha512-}"
