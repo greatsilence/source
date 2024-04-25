@@ -2,7 +2,7 @@ baseurl = "https://greatsilence.github.io/" # Controls base URL sitewide
 languageCode = "en-US" # Controls site language
 title = "After Dark" # Homepage title and page title suffix
 paginate = 11 # Number of posts to show before paginating
-copyright = "Copyright &copy; 2023 Matthias Fuchs. Licensed under <a target=\"_blank\" rel=\"external noopener license\" href=\"https://creativecommons.org/licenses/by-nd/4.0/\">CC-BY-ND-4.0</a>." # Optional, remove to suppress copyright notices
+copyright = "Copyright &copy; 2024 Matthias Fuchs. Licensed under <a target=\"_blank\" rel=\"external noopener license\" href=\"https://creativecommons.org/licenses/by-nd/4.0/\">CC-BY-ND-4.0</a>." # Optional, remove to suppress copyright notices
 
 # Controls default theme and theme components
 theme = [
@@ -41,7 +41,8 @@ sectionPagesMenu = "main" # Enable menu system for lazy bloggers
 [params.modules.fractal_forest]
   enabled = true # Optional, set false to disable module
   decoders = ["bpgdec8a"] # Optional, 8-bit javascript decoder with animation
-  
+
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
@@ -55,3 +56,4 @@ sectionPagesMenu = "main" # Enable menu system for lazy bloggers
   weight = 2
   identifier = "post"
   url = "/post/"
+

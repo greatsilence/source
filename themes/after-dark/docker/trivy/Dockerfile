@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019, 2020  VHS <vhsdev@tutanota.com>
+# Copyright (C) 2023  VHS <vhsdev@tutanota.com>
 #
 # This file is part of After Dark.
 #
@@ -24,34 +24,25 @@ ARG GO_VERSION=1.21.5
 ARG BUILD_TARGET=alpine3.19
 
 # Pull builder base image
-FROM golang:${GO_VERSION}-${BUILD_TARGET} AS hugobuilder
+FROM golang:${GO_VERSION}-${BUILD_TARGET} AS trivybuilder
 
 # Set environment variables
-ENV HUGO_VERSION=0.121.1 \
-    CGO_ENABLED=1 \
+ENV TRIVY_VERSION=0.48.0 \
+    CGO_ENABLED=0 \
     GOOS=linux \
-    GO111MODULE=on \
-    BUILD_TAGS="extended"
+    GO111MODULE=on
 
 # Build from source using specified version
 RUN \
-  apk add --update --no-cache git gcc g++ musl-dev && \
+  apk add --update --no-cache git gcc g++ musl-dev binutils-gold && \
   git -c advice.detachedHead=false clone --depth 1 \
-      --branch v${HUGO_VERSION} https://github.com/gohugoio/hugo.git \
-          $GOPATH/src/github.com/gohugoio/hugo && \
-  cd ${GOPATH:-$HOME/go}/src/github.com/gohugoio/hugo && \
-  go install -ldflags '-s -w -extldflags "-static"' -tags ${BUILD_TAGS}
-
-# Install After Dark via script
-FROM node:alpine as sitebuilder
-COPY --from=hugobuilder /go/bin/hugo /usr/local/bin/hugo
-WORKDIR /tmp
-RUN wget -qO- https://codeberg.org/vhs/after-dark/raw/branch/trunk/bin/install | sh
+      --branch v${TRIVY_VERSION} https://github.com/aquasecurity/trivy.git \
+          $GOPATH/src/github.com/aquasecurity/trivy && \
+  cd ${GOPATH:-$HOME/go}/src/github.com/aquasecurity/trivy && \
+  go install ./cmd/trivy/
 
 # Move compiled binary into scratch container
-FROM busybox
-EXPOSE 80
-COPY --from=hugobuilder /go/bin/hugo /usr/local/bin/hugo
-COPY --from=sitebuilder /tmp/flying-toasters/ /opt/after-dark/
-ENTRYPOINT ["/usr/local/bin/hugo"]
-CMD ["server","--buildDrafts","--bind","0.0.0.0","--port","80","--source","/opt/after-dark","--destination","/var/www"]
+FROM scratch
+COPY --from=trivybuilder /go/bin/trivy /trivy
+ENTRYPOINT ["/trivy"]
+CMD ["--help"]

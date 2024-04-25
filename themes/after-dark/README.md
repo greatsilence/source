@@ -1,5 +1,7 @@
 # After Dark
 
+> A retro dark theme for [Hugo].
+
 [![Latest NPM version](https://flat.badgen.net/npm/v/after-dark)](https://www.npmjs.com/after-dark)
 [![Weekly downloads](https://flat.badgen.net/npm/dw/after-dark)](https://www.npmjs.com/after-dark)
 [![Minimum Hugo version](https://flat.badgen.net/badge/hugo/>=0.51/FF4088)](https://gohugo.io)
@@ -24,40 +26,36 @@
 
 ## Requirements
 
-Hugo 0.51+ is the only requirement. ([Install Hugo](https://gohugo.io/getting-started/installing/)).
+Hugo 0.51+ required. Run `make hugo` for [extended build](https://vhs.codeberg.page/after-dark/feature/extended-builds/), or visit [Install Hugo](https://gohugo.io/installation/) for official steps.
 
 ### Installation
 
-The fastest installation method is to run the quick install script:
+The easiest installation method is to run the quick install script:
 
 ```sh
-wget -qO - https://codeberg.org/vhs/after-dark/raw/branch/trunk/bin/install | sh
+wget -qO- https://codeberg.org/vhs/after-dark/raw/branch/trunk/bin/install | sh
 ```
 
-Quick Install is ideal for first-time users and does not require use of git. Quick install will help you create and configure your site, install an example After Dark module, and generate a welcome post and online help documentation for offline use.
+Quick Install will ensure the machine is running a supported Hugo version, download the latest signed `after-dark` release, download the latest signed `fractal-forest`, and configure a sample After Dark site with welcome post.
 
-By convention After Dark may also be used with an existing Hugo site by git cloning to or adding as a submodule:
+By convention After Dark may also be installed as a [Hugo Theme Component](https://gohugo.io/hugo-modules/theme-components/):
 
 ```sh
-hugo-site
+flying-toasters
 ├── static
 └── themes
     └── after-dark # git clone or submodule
 ```
 
-See [Install a Single Theme](https://gohugo.io/themes/installing-and-using-themes/#install-a-single-theme) on the Hugo docs site for additional instructions.
-
-After Dark releases are tagged in git and [packaged on NPM](https://www.npmjs.com/package/after-dark). Use the NPM package to integrate After Dark into existing workflows.
-
 ### Usage
 
-Run the online help server after installing for detailed instructions:
+Run the online help server after installing for After Dark usage instructions:
 
-```
-sh ./themes/after-dark/bin/help
+```sh
+./themes/after-dark/bin/help
 ```
 
-See the [Hugo docs](https://gohugo.io/documentation/) as well. There's also a [Hugo community forum](https://discourse.gohugo.io/) in case you get stuck.
+Also visit the [Hugo docs](https://gohugo.io/documentation/), the [Hugo community forum](https://discourse.gohugo.io/) and [Stack Overflow](https://stackoverflow.com/questions/tagged/hugo).
 
 ### Upgrading
 
@@ -71,11 +69,11 @@ Upgrading replaces the file contents of the theme as a whole for security reason
 
 ### Verifying
 
-If installed or upgraded via script you may use the [Release Validator](https://vhs.codeberg.page/after-dark/validate/) to verify you're running a PGP-signed and SHA-verified release. Integrity is checked at the source level and may be performed offline. See [Release Hashes](https://vhs.codeberg.page/after-dark/feature/release-hashes/) for more info.
+Use the [Release Validator](https://vhs.codeberg.page/after-dark/validate/) from `https://localhost:1414/validate/` while the online help server is running to verify you're running a PGP-signed and SHA-verified release. Integrity is checked at the source level and may be performed offline. See [Release Hashes](https://vhs.codeberg.page/after-dark/feature/release-hashes/) to learn more.
 
 ## Credits
 
-Special thanks to エゴイスト for [hackcss](https://codeberg.org/vhs/mirrors/hack), Dan Klammer for the [bytesize icons](https://codeberg.org/vhs/mirrors/bytesize-icons) and Vincent Prouillet for the [Zola port](https://www.getzola.org/themes/after-dark/).
+Thanks to エゴイスト for [hack.css]; Dan Klammer for [bytesize icons]; Vincent Prouillet for creating a [Zola port of After Dark]; the author, maintainers and contributors to [hugo]; and thanks to the SiliconValley homesteaders on Geocities, and Berkeley Systems, for the design inspiration.
 
 ## Rights
 
@@ -87,10 +85,9 @@ it under the terms of the GNU Affero General Public License as published
 by the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
-After Dark is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Affero General Public License for more details.
+See file [COPYING](./COPYING) for warranty disclaimer and full license text.
 
-You should have received a copy of the GNU Affero General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
+[hack.css]: https://hackcss.egoist.dev/
+[hugo]: https://gohugo.io/
+[bytesize icons]: https://github.com/danklammer/bytesize-icons
+[Zola port of After Dark]: https://www.getzola.org/themes/after-dark/

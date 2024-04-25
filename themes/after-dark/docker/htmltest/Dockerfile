@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019  VHS <vhsdev@tutanota.com>
+# Copyright (C) 2019, 2023  VHS <vhsdev@tutanota.com>
 #
 # This file is part of After Dark.
 #
@@ -17,32 +17,34 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
 
-# DOCKER-VERSION 19.03.1-ce, build 74b1e89e8a
+# DOCKER-VERSION 24.0.7, build afdd53b (podman version 4.8.1)
 
-# Specify build image
-ARG GO_VERSION=1.11.4
-ARG BUILD_TARGET=alpine3.8
+# Specify builder base image
+ARG GO_VERSION=1.21.5
+ARG BUILD_TARGET=alpine3.19
 
 # Pull builder base image
 FROM golang:${GO_VERSION}-${BUILD_TARGET} AS htmltestbuilder
 
-# Set build variables
-ARG HTMLTEST_VERSION=0.10.3
-ENV CGO_ENABLED=0 \
+# Set environment variables
+ENV HTMLTEST_VERSION=0.17.0 \
+    CGO_ENABLED=0 \
     GOOS=linux \
     GO111MODULE=on
 
 # Build from source using specified version
 RUN \
-  apk add --update --no-cache ca-certificates git musl-dev && \
-  git clone https://github.com/wjdp/htmltest.git $GOPATH/src/github.com/wjdp/htmltest && \
+  apk add --update --no-cache git musl-dev && \
+  git -c advice.detachedHead=false clone --depth 1 \
+      --branch v${HTMLTEST_VERSION} https://github.com/wjdp/htmltest.git \
+          $GOPATH/src/github.com/wjdp/htmltest && \
   cd ${GOPATH:-$HOME/go}/src/github.com/wjdp/htmltest && \
-  git checkout v$HTMLTEST_VERSION && \
   go mod download && \
-  go install -installsuffix 'static' -ldflags "-X main.date=`date -u +%Y-%m-%dT%H:%M:%SZ` -X main.version=`git describe --tags`"
+  go install -installsuffix 'static' \
+      -ldflags "-X main.date=`date -u +%Y-%m-%dT%H:%M:%SZ` -X main.version=`git describe --tags`"
 
-# Move compiled binary into own container
+# Move compiled binary into scratch container
 FROM scratch
 COPY --from=htmltestbuilder /go/bin/htmltest /htmltest
 ENTRYPOINT ["/htmltest"]
-CMD ["-h"]
+CMD ["--help"]
