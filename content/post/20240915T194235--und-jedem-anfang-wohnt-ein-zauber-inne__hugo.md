@@ -3,7 +3,7 @@ title = "Und jedem Anfang wohnt ein Zauber inne"
 author = ["Matthias Fuchs"]
 description = "This text was generated using the After Dark post archetype."
 date = 2024-09-15T19:42:00+02:00
-lastmod = 2024-09-15T20:15:26+02:00
+lastmod = 2024-09-15T20:31:21+02:00
 tags = ["hugo"]
 categories = ["Schule"]
 draft = false
@@ -22,7 +22,7 @@ Seit diesem Schuljahr (2024-2025) darf ich an einer neuen Schule als Religionsle
 
 Während des Schuljahres - es muss auf einer Heimfahrt von Hallein gewesen sein (also an einem Mittwoch) - rief mich meine Inspektorin an. Sie fragte mich, ob ich mir vorstellen könne, die Schule zu wechseln. Grundsätzlich sagte ich zu.
 
-Und Schritt für Schritt wurde der Wechsel in die Wege geleitet. Ich war dann doch sehr erstaunt, wie wenig Rückhalt ich daraufhin von meinen Kollegen erhielt. Sie erzählten mir von den "ach so schlimmen Schülern" an meiner zukünftigen Schule. "Du wirst schon sehen, wie arg die Kinder dort sind und dich nach Golling zurücksehnen!" "Die Schule ist eine Bruchbude! Schrecklich!" "Die Direktorin dort verlangt sehr viel! Du wirst das niemals schaffen!"
+Und Schritt für Schritt wurde der Wechsel in die Wege geleitet. Ich war dann doch sehr erstaunt, wie wenig Rückhalt ich daraufhin von meinen Kollegen erhielt. Sie erzählten mir von den "ach so schlimmen Schülern" an meiner zukünftigen Schule. "Du wirst schon sehen, wie arg die Kinder dort sind und dich nach uns zurücksehnen!" "Die Schule ist eine Bruchbude! Schrecklich!" "Die Direktorin dort verlangt sehr viel! Du wirst das niemals schaffen!"
 
 Einerseits verstand ich ihre Reaktionen - sie wollten mich überreden zu bleiben; andererseits war ich doch betrübt, dass mir nur sehr wenige (nur zwei) Mut machten. Ihre Trauer über meinen Wechsel nahm ich ihnen ab.
 
@@ -31,7 +31,7 @@ Einerseits verstand ich ihre Reaktionen - sie wollten mich überreden zu bleiben
 
 Je näher der konkrete Wechsel und Neubeginn kam, desto aufgeregter wurde ich. Am Freitag der letzten Ferienwoche war dann die Begrüßung an der neuen Schule. Diese kurze Zeit verlief sehr gut. Der allererste Tag, Montag <span class="timestamp-wrapper"><span class="timestamp">&lt;2024-09-09 Mo&gt;</span></span>, war sehr anstrengend für mich (emotional und auch sonst): früh aufstehen, längerer Arbeitsweg, ... und schließlich die sehr lange Konferenz.
 
-Der nächste Tag: meine ersten beiden Stunden, und dann der Gottesdienst. Diese Feier war wirklich wunderschön! Am Mittwoch entfiel meine einzige Stunde diesen Tages, was mir sehr gelegen kam. Donnerstag und Freitag verliefen einigermaßen bis sehr gut. Am Freitag Nachmittag war ich dann so müde, dass ich bis halb sechs am Abend schlief.
+Der nächste Tag: meine ersten beiden Stunden, und dann der Gottesdienst. Diese Feier war wirklich wunderschön! Am Mittwoch entfiel meine einzige Stunde dieses Tages, was mir sehr gelegen kam. Donnerstag und Freitag verliefen sehr gut. Am Freitag Nachmittag war ich dann so müde, dass ich bis halb sechs am Abend schlief.
 
 Und nun stehe ich vor meiner ersten vollen Woche an dieser mir neuen Schule.
 
@@ -40,7 +40,7 @@ Ich spüre den höheren Anspruch an den RU - und ich weiß, dass ich volle Unter
 
 ## Geistlicher Kampf {#geistlicher-kampf}
 
-Das ist mein aktuelles Thema; leider werde ich manchmal von dunklen Gedanken übermannt und gehe gegen "meinen" Glauben vor, mache Jesus Vorwürfe; ich meine, der Glaube und die Hingabe an IHN mache keinen Sinn. Wo sei denn nun dieses versprochene "Leben in Fülle" (Joh 10)? Natürlich hat der finstere Geselle von unten ein großes Interesse daran, mich vom Glauben abzubringen. da heißt es aufmerksam zu sein.
+Das ist mein aktuelles Thema; leider werde ich manchmal von dunklen Gedanken übermannt und gehe gegen "meinen" Glauben vor, mache Jesus Vorwürfe; ich meine, der Glaube und die Hingabe an IHN mache keinen Sinn. Wo sei denn nun dieses versprochene "Leben in Fülle" (Joh 10)? Natürlich hat der finstere Geselle von unten ein großes Interesse daran, mich vom Glauben abzubringen. Da heißt es aufmerksam zu sein.
 
 Was kann ich tun? Wahrscheinlich selbst nicht viel, nur Jesus kann diesen Dämon besiegen. Doch kann ich meinen Teil dazu beitragen, meinen Glauben zu stärken - Bibel lesen, gute Literatur, Gebet, Sakramente, Gespräche mit Priestern, ...
 
