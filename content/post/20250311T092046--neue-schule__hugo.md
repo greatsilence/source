@@ -9,6 +9,8 @@ categories = ["Schule"]
 draft = false
 +++
 
+![Löwe](/purple-gnu.jpg)
+
 ## MMS Abtenau {#mms-abtenau}
 
 Seit diesem Schuljahr bin ich in der MS Abtenau. Der Anfang war sehr mühsam und beschwerlich - neue Schule, neuer Schüler, neue Unterrichtsmethode; Schwierigkeiten mit der Schulleitung (entdeckte erst viel später, dass es anderen, allen Kollegen ebenso erging).
