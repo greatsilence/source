@@ -3,14 +3,14 @@ title = "Endlich angekommen"
 author = ["Matthias Fuchs"]
 description = "This text was generated using the After Dark post archetype."
 date = 2025-10-24T08:53:00+02:00
-lastmod = 2025-10-24T09:24:28+02:00
+lastmod = 2025-11-03T17:13:36+01:00
 tags = ["schule"]
 draft = false
 +++
 
-## Ein neuer Anfang ... {#ein-neuer-anfang-dot-dot-dot}
+## Jedem Anfang ... {#jedem-anfang-dot-dot-dot}
 
-... ist schwer - sagt man. Und dies hat sich wieder einmal bestätigt. Durch die mehr als leidvollen Erfahrungen im letzten Schuljahr fiel mir der Wechsel an zwei neue Schulen überraschend - nicht einfach. Wahrscheinlich steckten mir die negativen Erlebnisse doch noch zu sehr in den Gliedern.
+... wohnt ein Zauber inne - sagte [Hermann Hesse](/home/matthias/Documents/notes/20240915T194235--und-jedem-anfang-wohnt-ein-zauber-inne__hugo.org). Und dies hat sich wieder einmal bestätigt. Durch die mehr als leidvollen Erfahrungen im letzten Schuljahr fiel mir der Wechsel an zwei neue Schulen überraschend - nicht einfach. Wahrscheinlich steckten mir die negativen Erlebnisse doch noch zu sehr in den Gliedern.
 
 Doch alle - Direktorinnen, Kollegen und die Schüler - an beiden Schullen, haben mir sehr geholfen; und helfen mir weiterhin. Nach einer Woche fühlte ich mich bereits viel wohler. Natürlich gibt es an beiden Schulen tolle und weniger gelungene Stunden, nette und ein wenig anstrengende Schüler; diese wird es immer und überall geben. Aber andere Dinge sind noch nicht vorgekommen - und hoffentlich werden sie das auch nicht:
 
