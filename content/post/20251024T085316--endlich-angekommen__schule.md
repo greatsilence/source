@@ -3,15 +3,15 @@ title = "Endlich angekommen"
 author = ["Matthias Fuchs"]
 description = "This text was generated using the After Dark post archetype."
 date = 2025-10-24T08:53:00+02:00
-lastmod = 2026-03-10T11:37:30+01:00
+lastmod = 2026-03-17T11:58:41+01:00
 tags = ["schule"]
 draft = false
 +++
 
 ## Jedem Anfang ... {#jedem-anfang-dot-dot-dot}
 
-... wohnt ein Zauber inne - sagte Hermann Hesse [Hermann Hesse]({{< relref "20240915T194235--und-jedem-anfang-wohnt-ein-zauber-inne__hugo" >}})  . Und dies hat sich wieder einmal bestätigt. Durch die mehr als leidvollen Erfahrungen im letzten Schuljahr fiel mir der Wechsel an zwei neue Schulen überraschend - nicht einfach. Wahrscheinlich steckten mir die negativen Erlebnisse doch noch zu sehr in den Gliedern.
-Hermann Hesse
+... wohnt ein Zauber inne - sagte [Hermann Hesse]({{< relref "20240915T194235--und-jedem-anfang-wohnt-ein-zauber-inne__hugo" >}})  . Und dies hat sich wieder einmal bestätigt. Durch die mehr als leidvollen Erfahrungen im letzten Schuljahr fiel mir der Wechsel an zwei neue Schulen überraschend - nicht einfach. Wahrscheinlich steckten mir die negativen Erlebnisse doch noch zu sehr in den Gliedern.
+
 Doch alle - Direktorinnen, Kollegen und die Schüler - an beiden Schulen, haben mir sehr geholfen; und helfen mir weiterhin. Nach einer Woche fühlte ich mich bereits viel wohler. Natürlich gibt es an beiden Schulen tolle und weniger gelungene Stunden, nette und ein wenig anstrengende Schüler; diese wird es immer und überall geben. Aber andere Dinge sind noch nicht vorgekommen - und hoffentlich werden sie das auch nicht:
 
 An den beiden vorhergehenden Schulen zeigten die Schüler so gut wie keinen Respekt mir gegenüber; während der Pausenaufsicht haben an beiden Schulen die Kinder mir meinen Namen voller Verachtung hinterher gerufen: "Herr Fuuuuuuchs!"
